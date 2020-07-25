@@ -1,0 +1,186 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.custom{
+    background: url(skin.svg); 
+    background-repeat: no-repeat;
+    background-position: -91px -24px;
+    width: 790px;
+    height: 310px;
+}
+.custom.disconnected {
+    background: url(skin.svg); 
+    background-position: -100px -500px;
+    background-repeat: no-repeat;
+}
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers{
+    width: 790px;
+    height: 29px;
+    position: absolute;
+}
+.custom .trigger{
+    width: 237px;
+    height: 29px;
+    background: url(skin.svg); 
+    background-position: -943px -25px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.custom .trigger.left{ 
+    float: left;
+}
+.custom .trigger.right{
+    float: right;
+}
+.custom .quadrant{
+}
+.custom .p0{
+    background-position: 0 -6px;
+}
+.custom .p1{
+    background-position: 0 -28px;
+}
+.custom .p2{
+    background-position: 0 -49px;
+}
+.custom .p3{
+    background-position: 0 -70px;
+}
+.custom .arrows{
+    position: absolute;
+    width: 183px;
+    height: 67px;
+    top: 187px;
+    left: 303px;
+}
+.custom .back, .custom .start{
+    width: 77px;
+    height: 67px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    background: url(skin.svg);
+    background-position: -1208px -10px;
+}
+.custom .back{
+    float: left;
+}
+.custom .start{
+    float: right;
+}
+.custom .abxy{
+    position: absolute;
+    width: 238px;
+    height: 238px;
+    top: 72px;
+    left: 552px;
+}
+.custom .button{
+    position: absolute;
+    width:80px;
+    height:80px;
+}
+.custom .button.pressed{
+    background: url(skin.svg);
+    background-position: -1202px -137px;
+}
+.custom .a{
+    top: 158px;
+    left: 79px;
+}
+.custom .b{
+    top: 79px;
+    right: 0px;
+}
+.custom .x{
+    top: 79px;
+}
+.custom .y{
+    left: 79px;
+}
+.custom .sticks{
+}
+.custom .stick{
+}
+.custom .stick.pressed.left{
+}
+.custom .stick.pressed.right{
+}
+.custom .stick.left{
+}
+.custom .stick.right{
+}
+.custom .dpad{
+    position: absolute;
+    width: 238px;
+    height: 238px;
+    top: 68px;
+    left: 0px;
+}
+.custom .face{
+    position: absolute;
+}
+.custom .face.up, .custom .face.down{
+    width: 50px;
+    height: 50px;
+}
+.custom .face.left, .custom .face.right{
+    width: 50px;
+    height: 50px;
+}
+.custom .face.up{
+    left: 94px;
+    top: 15px;
+}
+.custom .face.down{
+    left: 94px;
+    bottom: 15px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+.custom .face.left{
+    top: 94px;
+    left: 15px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.custom .face.right{
+    top: 94px;
+    right: 15px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.custom .face.pressed{
+    background: url(skin.svg);
+    background-position: -1084px -140px;
+}
+.custom.half{
+    margin-top: -152px;
+}
+.custom .trigger-button.left{
+}
+.custom .trigger-button.right{
+}
+.custom .trigger-button.left.pressed{
+}
+.custom .trigger-button.right.pressed{
+}
+.fstick{
+}
+.fstick.up{
+}
+.fstick.down{
+}
+.fstick.left{
+}
+.fstick.right{
+}
+.fstick.up.right{
+}
+.fstick.up.left{
+}
+.fstick.down.right{
+}
+.fstick.down.left{
+}
+/*END Xbox One Controller Styling*/
